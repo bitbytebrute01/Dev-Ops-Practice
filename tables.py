@@ -1,9 +1,6 @@
-#The greatest of 3 
+#The greatest of 3 this time using Merge and Making another branch names map
 
 import sys
-a = int(sys.argv[1])
-b = int(sys.argv[2])
-c = int(sys.argv[3])
-
+a,b,c = map(int,sys.argv[1:4])
 max = max(a,b,c)
 print(max)
